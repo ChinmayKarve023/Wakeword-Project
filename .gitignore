@@ -1,0 +1,24 @@
+# Ignore virtual environments
+venv*/
+venv39/
+
+# Ignore dataset
+data/speech_commands_v0.02/
+data/processed/
+
+# Ignore models (optional if large)
+model/*.h5
+model/*.npy
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore logs and checkpoints
+*.log
+*.json
+
+# Ignore system files
+.DS_Store
+Thumbs.db
